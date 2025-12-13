@@ -1,0 +1,521 @@
+{
+	"info": {
+		"_postman_id": "24d89598-d65c-435f-939a-207a3c42bed5",
+		"name": "Beyza Keklikoğlu",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50713178",
+		"_collection_link": "https://beyzakklkoglu-2033688.postman.co/workspace/Beyza-Kekliko%C4%9Flu's-Workspace~a95518cb-d36e-44d7-815e-e10cb0412cd9/collection/50713178-24d89598-d65c-435f-939a-207a3c42bed5?action=share&source=collection_link&creator=50713178"
+	},
+	"item": [
+		{
+			"name": "Add Venue",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "cam kafe",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "sdü batı kampüsü\n",
+							"type": "text"
+						},
+						{
+							"key": "foodanddrink",
+							"value": "çay,tost",
+							"type": "text"
+						},
+						{
+							"key": "lat",
+							"value": "38",
+							"type": "text"
+						},
+						{
+							"key": "long",
+							"value": "35",
+							"type": "text"
+						},
+						{
+							"key": "day1",
+							"value": "pazartesi-cuma",
+							"type": "text"
+						},
+						{
+							"key": "open1",
+							"value": "9.00",
+							"type": "text"
+						},
+						{
+							"key": "close1",
+							"value": "17.00",
+							"type": "text"
+						},
+						{
+							"key": "isclosed1",
+							"value": "false",
+							"type": "text"
+						},
+						{
+							"key": "day2",
+							"value": "cumartesi",
+							"type": "text"
+						},
+						{
+							"key": "open2",
+							"value": "10.00",
+							"type": "text"
+						},
+						{
+							"key": "close2",
+							"value": "16.00",
+							"type": "text"
+						},
+						{
+							"key": "isclosed2",
+							"value": "false",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://mekanbul-backend-seven.vercel.app/api/venues",
+					"protocol": "https",
+					"host": [
+						"mekanbul-backend-seven",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"venues"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Venue",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "cam kafe",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "sdü batı kampüsü\n",
+							"type": "text"
+						},
+						{
+							"key": "foodanddrink",
+							"value": "çay,tost",
+							"type": "text"
+						},
+						{
+							"key": "lat",
+							"value": "38",
+							"type": "text"
+						},
+						{
+							"key": "long",
+							"value": "35",
+							"type": "text"
+						},
+						{
+							"key": "day1",
+							"value": "pazartesi-cuma",
+							"type": "text"
+						},
+						{
+							"key": "open1",
+							"value": "9.00",
+							"type": "text"
+						},
+						{
+							"key": "close1",
+							"value": "17.00",
+							"type": "text"
+						},
+						{
+							"key": "isclosed1",
+							"value": "false",
+							"type": "text"
+						},
+						{
+							"key": "day2",
+							"value": "cumartesi",
+							"type": "text"
+						},
+						{
+							"key": "open2",
+							"value": "10.00",
+							"type": "text"
+						},
+						{
+							"key": "close2",
+							"value": "16.00",
+							"type": "text"
+						},
+						{
+							"key": "isclosed2",
+							"value": "false",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://mekanbul-backend-seven.vercel.app/api/venues/693d49eb2cb90dabdc259e13",
+					"protocol": "https",
+					"host": [
+						"mekanbul-backend-seven",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"venues",
+						"693d49eb2cb90dabdc259e13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Venue",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "safir kafe",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "süleyman demirel üni",
+							"type": "text"
+						},
+						{
+							"key": "foodanddrink",
+							"value": "döner",
+							"type": "text"
+						},
+						{
+							"key": "lat",
+							"value": "40",
+							"type": "text"
+						},
+						{
+							"key": "long",
+							"value": "38",
+							"type": "text"
+						},
+						{
+							"key": "day1",
+							"value": "salı-perşembe",
+							"type": "text"
+						},
+						{
+							"key": "open1",
+							"value": "12:00",
+							"type": "text"
+						},
+						{
+							"key": "close1",
+							"value": "17.30",
+							"type": "text"
+						},
+						{
+							"key": "isclosed1",
+							"value": "false",
+							"type": "text"
+						},
+						{
+							"key": "day2",
+							"value": "cumartesi",
+							"type": "text"
+						},
+						{
+							"key": "open2",
+							"value": "11.00",
+							"type": "text"
+						},
+						{
+							"key": "close2",
+							"value": "15.00",
+							"type": "text"
+						},
+						{
+							"key": "isclosed2",
+							"value": "false",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://mekanbul-backend-seven.vercel.app/api/venues/693d49eb2cb90dabdc259e13",
+					"protocol": "https",
+					"host": [
+						"mekanbul-backend-seven",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"venues",
+						"693d49eb2cb90dabdc259e13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Nearby Venues",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "lat",
+							"value": "38",
+							"type": "text"
+						},
+						{
+							"key": "long",
+							"value": "35",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://mekanbul-backend-seven.vercel.app/api/venues?lat=40&long=38",
+					"protocol": "https",
+					"host": [
+						"mekanbul-backend-seven",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"venues"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "40"
+						},
+						{
+							"key": "long",
+							"value": "38"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Comments",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "author",
+							"value": "Beyza",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "text",
+							"value": "yemekler güzel",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://mekanbul-backend-seven.vercel.app/api/venues/693d49eb2cb90dabdc259e13/comments",
+					"protocol": "https",
+					"host": [
+						"mekanbul-backend-seven",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"venues",
+						"693d49eb2cb90dabdc259e13",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Comments",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "author",
+							"value": "Özlem",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "text",
+							"value": "yemekler kötü",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://mekanbul-backend-seven.vercel.app/api/venues/693d49eb2cb90dabdc259e13/comments/693d4b9529671da98117db68",
+					"protocol": "https",
+					"host": [
+						"mekanbul-backend-seven",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"venues",
+						"693d49eb2cb90dabdc259e13",
+						"comments",
+						"693d4b9529671da98117db68"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Comments",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "author",
+							"value": "Özlem",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "text",
+							"value": "yemekler kötü",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://mekanbul-backend-seven.vercel.app/api/venues/693d49eb2cb90dabdc259e13/comments/693d4b9529671da98117db68",
+					"protocol": "https",
+					"host": [
+						"mekanbul-backend-seven",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"venues",
+						"693d49eb2cb90dabdc259e13",
+						"comments",
+						"693d4b9529671da98117db68"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Comments",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://mekanbul-backend-seven.vercel.app/api/venues/693d49eb2cb90dabdc259e13/comments/693d4b9529671da98117db68",
+					"protocol": "https",
+					"host": [
+						"mekanbul-backend-seven",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"venues",
+						"693d49eb2cb90dabdc259e13",
+						"comments",
+						"693d4b9529671da98117db68"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Venue",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://mekanbul-backend-seven.vercel.app/api/venues/693d49eb2cb90dabdc259e13",
+					"protocol": "https",
+					"host": [
+						"mekanbul-backend-seven",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"venues",
+						"693d49eb2cb90dabdc259e13"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
